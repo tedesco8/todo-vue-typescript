@@ -42,7 +42,7 @@ import TodoItem from "@/components/TodoItem.vue";
   },
 })
 export default class TodoList extends Vue {
-  todos: Array<any> = [];
+  todos: Array<string> = [];
 
   newTodo(todo: string) {
     this.todos.push(todo);
